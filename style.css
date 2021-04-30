@@ -1,0 +1,63 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+.banner-header {
+  width: 80%;
+  position: relative;
+  padding: 14%;
+  margin: 0;
+  z-index: 2;
+}
+.title {
+  display: inline-block;
+  width: 100%;
+  font-size: 3rem;
+  font-family: "Pacifico", cursive;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  margin: 0;
+  text-align: center;
+}
+.grid {
+  margin-top: -2px;
+  background-color: #d7fffb;
+  color: #2e3192 /* #1b1464 */;
+}
+.partys {
+  background-color: #d7fffb;
+  color: #3fa9f5 /* #1b1464 */;
+}
+
+.main {
+  margin-top: -4px;
+}
+.baloon {
+  width: 10%;
+}
+#mansory-grid {
+  background-color: #d7fffb;
+  width: 95vw;
+  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 80px;
+  margin: 0px auto;
+  column-count: 2;
+  column-gap: 10px;
+}
+
+#mansory-grid img {
+  width: 100%;
+  border-radius: 4px;
+  box-sizing: border-box;
+  border: 3px solid rgba(46, 49, 146, 0.5);
+}
+figure {
+  margin: 0;
+  display: flex;
+  margin-bottom: 10px;
+  break-inside: avoid;
+}
